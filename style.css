@@ -51,19 +51,19 @@
     }
 
     #delayed1 {
-        animation-delay: 0.3s;
+        animation-delay: 0.5s;
     }
 
     #delayed2 {
-        animation-delay: 0.8s;
+        animation-delay: 1.5s;
     }
 
     #delayed3 {
-        animation-delay: 1.3s;
+        animation-delay: 2.5s;
     }
 
     #delayed4 {
-        animation-delay: 1.8s;
+        animation-delay: 3.5s;
     }
 
     @keyframes fuck {

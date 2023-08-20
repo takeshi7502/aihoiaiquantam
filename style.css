@@ -1,0 +1,76 @@
+    .light {
+        background-color: white;
+        color: black;
+    }
+
+    .dark {
+        background-color: black;
+        color: white;
+    }
+
+    .svg-filter-white {
+        filter: invert(99%) sepia(73%) saturate(0%) hue-rotate(177deg) brightness(107%) contrast(100%);
+    }
+
+    svg {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    html,
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .spaced-flex {
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        justify-content: space-between;
+    }
+
+    #root {
+        width: 100%;
+        height: 100%;
+    }
+
+    #main {
+        transition-duration: 0.5s;
+        transition-property: background-color color;
+        transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .delayed {
+        animation-duration: 0.5s;
+        animation-name: fuck;
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+    }
+
+    #delayed1 {
+        animation-delay: 0.3s;
+    }
+
+    #delayed2 {
+        animation-delay: 0.8s;
+    }
+
+    #delayed3 {
+        animation-delay: 1.3s;
+    }
+
+    #delayed4 {
+        animation-delay: 1.8s;
+    }
+
+    @keyframes fuck {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }

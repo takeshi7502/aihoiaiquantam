@@ -63,15 +63,7 @@
     }
 
     #delayed4 {
-        animation-delay: 2.5s;
-    }
-
-    #delayed5 {
         animation-delay: 3.5s;
-    }
-
-    #delayed6 {
-        animation-delay: 4.5s;
     }
 
     @keyframes fuck {
